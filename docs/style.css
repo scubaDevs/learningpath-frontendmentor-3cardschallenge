@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root{
+
+/* Colors Variables*/
+
+/* Primary*/
+
+--Bright_orange: hsl(31, 77%, 52%);
+--Dark_cyan: hsl(184, 100%, 22%);
+--Very_dark_cyan: hsl(179, 100%, 13%);
+
+/*Neutral*/
+
+--Transparent_white : hsla(0, 0%, 100%, 0.75);  /*(paragraphs)*/
+--Very_light_gray : hsl(0, 0%, 95%); /* (background, headings, buttons)*/
+
+
+}
+body *{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--Very_light_gray);
+    
+}
+
+h1{
+    color: var(--Transparent_white);
+}
+
+p{
+    color: var(--Transparent_white);
+}
+
+button{
+    color: var(--Transparent_white);
+}
+
+.buttonsedans--background{
+    background-color: var(--Bright_orange);
+}
+
+.buttonsuvs--background{
+    background-color: var(--Very_dark_cyan);
+}
+.sedans{
+    background-color: var(--Bright_orange)
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
